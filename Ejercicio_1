@@ -1,0 +1,32 @@
+'use strict'
+
+
+/*
+	programa que pida dos numeros
+	y nos diga cual es el mayor cual es el menor
+	y si son iguales
+*/
+
+///Siempre el prompt recoge un string no numero
+var numero1 = parseInt (prompt('Introduce el primer numero', 0));
+var numero2 = parseInt (prompt('Introduce el segundo numero', 0));
+
+console.log (numero1,numero2);
+
+
+if (numero2 == numero1){
+	console.log("son iguales")
+
+}
+
+
+if (numero2 > numero1){
+	console.log("2 es mayor")
+
+}
+
+if (numero2 < numero1){
+	///Alert
+	console.log("1 es mayor")
+
+}
